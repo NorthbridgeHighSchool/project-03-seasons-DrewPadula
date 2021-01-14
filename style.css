@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+h1 {
+  font-family: "East Sea Dokdo", "serif";
+  font-size: 40px; 
+}
+.logo {
+  height: 90px;
+  float: left;
+  margin-right: 20px;
+}
+.cards img {
+  max-height: 200px;
+  max-width: 184px;
+}
+a:link {
+  color: rgb(37, 253, 66);
+}
+a:hover {
+  text-decoration: none;
+  box-shadow: 0 0 9px 10px rgb(37, 253, 66);
+}
+html.water {
+  background-image: url('water.jpg');
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+html.soda {
+  background-image: url('coke.jpg');
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+html.juice {
+  background-image: url('juice2.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+html.coffee {
+  background-image: url('coffee2.jpg');
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.textblock {
+  background-color: rgba(111, 202, 255, 0.63); 
+  margin-right: 60%;
+  padding:20px;
+}
+.textbox {
+  background-color:rgba(111, 202, 255, 0.63);
+  margin-right: 60%;
+  padding: 20px;
+  font-size: 20px
+}
